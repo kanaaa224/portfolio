@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+
+/* ---------------------------------------------------------------------------------------------- */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    touch-action: manipulation;
+
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: sans-serif;
+
+    background-color: #333;
+
+    -webkit-user-select: none;
+       -moz-user-select: none;
+            user-select: none;
+}
+
+/* ---------------------------------------------------------------------------------------------- */
+
+.app {
+    font-family: 'Syne', sans-serif;
+    font-weight: 800;
+
+    img {
+        pointer-events: none;
+    }
+
+    .card-shadow {
+        box-shadow: 0 0 5rem #0000000d !important;
+    }
+}
